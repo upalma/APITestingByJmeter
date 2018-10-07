@@ -1,0 +1,3 @@
+Run specific .jmx file go to .pom location by terminal and run bellow
+
+mvn clean verify -e -DtestCaseName=ServiceApi

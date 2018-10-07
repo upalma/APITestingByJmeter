@@ -11,10 +11,13 @@
 	
 	<properties>
 
-        <TestCaseName>${testCaseName}</TestCaseName>
+        <!--suppress UnresolvedMavenProperty -->
+		<TestCaseName>${testCaseName}</TestCaseName>
 
-        <Auth>${token}</Auth>
+        <!--suppress UnresolvedMavenProperty -->
+		<Auth>${token}</Auth>
 
+		<!--suppress UnresolvedMavenProperty -->
 		<DataFileName>${dataFileName}</DataFileName>
 	</properties>
 	<dependencies>
@@ -83,8 +86,8 @@
 						<configuration>
 							<!-- configure which testplans to use -->
 							<testFilesIncluded>
-							       <!-- <includes>${TestCaseName}.jmx</includes>-->
-								<includes>ServiceApi.jmx</includes>
+							        <includes>${TestCaseName}.jmx</includes>
+								<!--<includes>ServiceApi.jmx</includes>-->
 							</testFilesIncluded>
 							<scanResultsForFailedRequests>true</scanResultsForFailedRequests>				
 							<!--Changing it to true to fail build-->
@@ -96,7 +99,8 @@
 							<propertiesUser>
 								<targetResults>${basedir}/target/jmeter/report</targetResults>
 								<Authentication>${Auth}</Authentication>
-								<DataFile>${DataFileName}</DataFile>
+								<DataFile>${Data
+								FileName}</DataFile>
 							</propertiesUser>
 
 							<propertiesJMeter>
