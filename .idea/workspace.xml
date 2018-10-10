@@ -16,7 +16,7 @@
       <change beforePath="$PROJECT_DIR$/target/jmeter/bin/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/jmeter/bin/system.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jmeter/bin/upgrade.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/jmeter/bin/upgrade.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jmeter/bin/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/jmeter/bin/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jmeter/logs/ServiceApi.jmx.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/jmeter/logs/ServiceApi.jmx.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jmeter/logs/ServiceApi.jmx.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jmeter/reports/ServiceApi_20181007_193525/README.TXT" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jmeter/reports/ServiceApi_20181007_193525/content/css/dashboard.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jmeter/reports/ServiceApi_20181007_193525/content/css/jquery-ui.css" beforeDir="false" />
@@ -422,7 +422,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539202256671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539202620035" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -542,7 +542,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="828" extended-state="1" />
+    <frame x="0" y="22" width="1440" height="828" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2918455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
