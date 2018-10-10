@@ -37,7 +37,7 @@
 
 			<build>
                 <plugins>
-					<!-- Configure the maven-compiler-plugin to use JDK 1.8 -->
+					 <!--Configure the maven-compiler-plugin to use JDK 1.8-->
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-compiler-plugin</artifactId>
@@ -63,7 +63,6 @@
 								</goals>
 							</execution>
 						</executions>
-						
 						<dependencies>
 							<dependency>
 								<groupId>kg.apc</groupId>
@@ -92,9 +91,11 @@
 							<scanResultsForFailedRequests>true</scanResultsForFailedRequests>				
 							<!--Changing it to true to fail build-->
 							<ignoreResultFailures>false</ignoreResultFailures>
-                            <reportConfig>
-								<xsltFile>${basedir}/src/test/resources/jmeter-results-detail-report_21.xsl</xsltFile>
+
+							<reportConfig>
+								<xsltFile>${basedir}/Users/palmauzzal/API_Testing_By_JMeter/src/test/resources/jmeter-results-detail-report_21.xsl</xsltFile>
 							</reportConfig>
+
 							<!-- protocol, server and port of tested webapp -->
 							<propertiesUser>
 								<targetResults>${basedir}/target/jmeter/report</targetResults>

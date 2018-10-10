@@ -118,7 +118,7 @@
         <hashTree/>
       </hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-        <stringProp name="filename">/Users/jahidul/IdeaProjects/API_Testing_By_JMeter/data/DataFile.csv</stringProp>
+        <stringProp name="filename">/Users/palmauzzal/API_Testing_By_JMeter/data/DataFile.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames">empName,empEmail,salary,department</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
