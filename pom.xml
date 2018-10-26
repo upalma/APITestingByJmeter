@@ -8,15 +8,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>API Test</name>
 	<description>This application contains the Jmeter Service Tests for SWS CSP API Service.</description>
-	
 	<properties>
-
         <!--suppress UnresolvedMavenProperty -->
 		<TestCaseName>${testCaseName}</TestCaseName>
-
         <!--suppress UnresolvedMavenProperty -->
 		<Auth>${token}</Auth>
-
 		<!--suppress UnresolvedMavenProperty -->
 		<DataFileName>${dataFileName}</DataFileName>
 	</properties>
@@ -34,7 +30,6 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
-
 			<build>
                 <plugins>
 					 <!--Configure the maven-compiler-plugin to use JDK 1.8-->
